@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import HomeAnimation from "@/components/home/animation";
+import HomeAnimation from "@/components/home/reactAnimation";
 import Intro from "@/components/home/intro";
 import Layout from "@/components/layout";
 import Head from "next/head";
