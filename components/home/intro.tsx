@@ -1,5 +1,5 @@
 import Link from "next/link";
-import HomeAnimation from "./animation";
+import HomeAnimation from "./reactAnimation";
 import { useEffect, useState } from "react";
 
 export default function Intro() {
@@ -41,7 +41,7 @@ export default function Intro() {
       <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
         <h1
           style={titleStyles}
-          className="custom-leading text-4xl mb-10 title-font font-medium text-gray-900"
+          className="custom-leading text-4xl mb-7 title-font font-medium text-gray-900"
         >
           두려움을 극복하며 절대로 포기하지 않는
           <br className="hidden lg:inline-block" />
