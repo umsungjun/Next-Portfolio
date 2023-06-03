@@ -21,9 +21,6 @@ export default function ProjectItem({
 
   const fTag = frontTag.split(" ") as string[];
   const bTag = backTag.split(" ") as string[];
-  console.log(bTag.length);
-
-  //   if(bTag.length)
   const tags =
     bTag.length === 1 ? fTag : [...fTag, ...bTag].map((tag) => tag.trim());
 
@@ -33,8 +30,8 @@ export default function ProjectItem({
         className="rounded-t-xl"
         src={coverImg}
         alt="cover image"
-        width={500}
-        height={500}
+        width={100}
+        height={100}
         layout="responsive"
         objectFit="cover"
         quality={100}
@@ -99,10 +96,10 @@ export default function ProjectItem({
         <p className="my-1 ">
           작업기간 : {start} ~ {end}
         </p>
-        <div className="flex items-start mt-2">
+        <div className="flex items-start mt-2 flex-wrap">
           {tags.map((aTag, i) => (
             <h1
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30"
+              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30 "
               key={`${aTag}+${i}`}
             >
               {aTag}
