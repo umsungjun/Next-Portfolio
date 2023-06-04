@@ -100,7 +100,7 @@ export default function ProjectItem({
         <div className="flex items-start mt-2 flex-wrap">
           {tags.map((aTag, i) => (
             <h1
-              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30 "
+              className="px-2 py-1 mr-2 rounded-md bg-sky-200 dark:bg-sky-700 w-30 mb-2"
               key={`${aTag}+${i}`}
             >
               {aTag}
