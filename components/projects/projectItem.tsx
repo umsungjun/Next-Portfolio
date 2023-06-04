@@ -42,8 +42,8 @@ export default function ProjectItem({
         <h3 className="mt-4 text-xl">{explain}</h3>
         <a className="flex items-center  hover:text-blue-700" href={notionUrl}>
           <SiNotion className="mr-1" />
-          상세설명 바로가기 - 상세 설명을 확인하시려면 Notion으로 로그인해
-          주시면 감사하겠습니다.
+          상세설명 바로가기 - 프로젝트를 진행하면서 느낀 점과 이슈를 확인할 수
+          있습니다.
         </a>
         <a className="flex items-center mr-1 hover:text-blue-700" href={gitUrl}>
           <svg
