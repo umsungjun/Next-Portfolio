@@ -25,7 +25,7 @@ export default function ProjectItem({
     bTag.length === 1 ? fTag : [...fTag, ...bTag].map((tag) => tag.trim());
 
   return (
-    <div className="project-card">
+    <div className="project-card ">
       <Image
         className="rounded-t-xl"
         src={coverImg}
@@ -42,7 +42,8 @@ export default function ProjectItem({
         <h3 className="mt-4 text-xl">{explain}</h3>
         <a className="flex items-center  hover:text-blue-700" href={notionUrl}>
           <SiNotion className="mr-1" />
-          상세설명 바로가기
+          상세설명 바로가기 - 상세 설명을 확인하시려면 Notion으로 로그인해
+          주시면 감사하겠습니다.
         </a>
         <a className="flex items-center mr-1 hover:text-blue-700" href={gitUrl}>
           <svg

@@ -55,7 +55,7 @@ export default function Projects({
       {/* <h1>총 프로젝트 : {projects.length}</h1> */}
       <section className="flex min-h-screen flex-column items-center justify-center text-gray-600 body-font">
         <div className="container flex-column mx-auto flex px-5 py-24 flex-col items-center">
-          <div className="flex md:flex-row sm:flex-row flex-wrap">
+          <div className="flex md:flex-row sm:flex-row flex-wrap justify-around">
             {projects.map((project) => {
               return <ProjectItem key={project.id} project={project} />;
             })}
