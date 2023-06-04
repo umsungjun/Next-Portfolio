@@ -3,7 +3,7 @@ import Image from "next/image";
 import { SiNotion } from "react-icons/si";
 
 export default function ProjectItem({
-  project: { id, cover, created_time, last_edited_time, properties, url },
+  project: { cover, properties, url },
 }: ProjectItem) {
   const title = properties["이름"]?.title[0]?.text?.content ?? "";
   const explain = properties["주제"]?.rich_text[0]?.plain_text ?? "";
