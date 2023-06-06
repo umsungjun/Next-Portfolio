@@ -39,12 +39,18 @@ export default function ProjectItem({
 
       <div className="p-4 flex flex-col">
         <h1 className="text-2xl font-bold">{title}</h1>
-        <h3 className="mt-4 text-xl">{explain}</h3>
-        <a className="flex items-center  hover:text-blue-700" href={notionUrl}>
+        <h3 className="mt-4 text-xl mb-2">{explain}</h3>
+        <a
+          className="flex items-center  hover:text-blue-700 mb-2"
+          href={notionUrl}
+        >
           <SiNotion className="mr-1" />
           노션 - 노션을 통해 프로젝트 정보를 간편하게 확인할 수 있습니다.
         </a>
-        <a className="flex items-center mr-1 hover:text-blue-700" href={gitUrl}>
+        <a
+          className="flex items-center mr-1 hover:text-blue-700 mb-2"
+          href={gitUrl}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
@@ -60,7 +66,7 @@ export default function ProjectItem({
         {youtubeUrl !== "" ? (
           <a
             href={youtubeUrl}
-            className="flex items-center hover:text-blue-700"
+            className="flex items-center hover:text-blue-700 mb-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +84,7 @@ export default function ProjectItem({
         {vercelLink !== "작동영상으로 대체" ? (
           <a
             href={vercelLink}
-            className="flex items-center hover:text-blue-700"
+            className="flex items-center hover:text-blue-700 mb-2"
           >
             <svg
               xmlns="http://www.w3.org/2000/svg"
