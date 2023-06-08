@@ -53,4 +53,4 @@
 - 이슈 : getStaticProps()와 getServerSideProps() 함수 중 어떤 것을 사용해야 할지에 대한 고민이 있었습니다.
 - 해결 방법 : 처음에는 수정된 데이터를 실시간으로 확인하기 위해 getServerSideProps() 함수를 사용했으나, 배포 후에 더 나은 성능을 제공하기 위해 getStaticProps() 함수를 사용하는 방법을 선택했습니다.
 
-<br/><img src="NextPortfolioReadeMeImg/Untitled 7.png" alt="리드미 이미지"><br/>
+<br/><img src="NextPortfolioReadeMeImg/Untitled 7.png" alt="리드미 이미지">
