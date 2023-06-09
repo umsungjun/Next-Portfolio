@@ -30,11 +30,9 @@ export default function ProjectItem({
         className="rounded-t-xl"
         src={coverImg}
         alt="cover image"
-        width={100}
-        height={100}
-        layout="responsive"
-        objectFit="cover"
-        quality={100}
+        width={1000}
+        height={1000}
+        quality={80}
       />
 
       <div className="p-4 flex flex-col">
