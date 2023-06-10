@@ -1,6 +1,7 @@
 import { ProjectItem } from "@/types/types";
 import Image from "next/image";
 import { SiNotion } from "react-icons/si";
+import coverImgSungJun from "@/public/assets/um sung jun.png";
 
 export default function ProjectItem({
   project: { cover, properties, url },
@@ -28,7 +29,7 @@ export default function ProjectItem({
     <div className="project-card ">
       <Image
         className="rounded-t-xl"
-        src={coverImg}
+        src={coverImg ? coverImg : coverImgSungJun}
         alt="cover image"
         width={1000}
         height={1000}
