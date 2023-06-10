@@ -6,6 +6,7 @@ const nextConfig = {
       "images.unsplash.com",
       "www.notion.so",
     ],
+    format: ["image/png", "image/webp", "image/jpeg"],
   },
 };
 
