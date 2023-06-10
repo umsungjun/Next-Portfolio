@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import Layout from "@/components/layout";
-import type { InferGetStaticPropsType, GetStaticProps } from "next";
+import type { GetServerSideProps, InferGetServerSidePropsType } from "next";
 import { DATABASE_ID, TOKEN } from "@/config";
 import Head from "next/head";
 import ProjectItem from "@/components/projects/projectItem";
@@ -8,7 +8,7 @@ import { Repo } from "@/types/types";
 import HomeAnimation from "@/components/home/reactAnimation";
 import CodingAnimation from "@/components/projects/codingAnimation";
 
-export const getStaticProps: GetStaticProps<{
+export const getServerSideProps: GetServerSideProps<{
   repo: Repo;
 }> = async () => {
   const options = {
@@ -33,7 +33,7 @@ export const getStaticProps: GetStaticProps<{
 
 export default function Projects({
   repo,
-}: InferGetStaticPropsType<typeof getStaticProps>) {
+}: InferGetServerSidePropsType<typeof getServerSideProps>) {
   // console.log(repo);
   const projects = [...repo.results];
 
