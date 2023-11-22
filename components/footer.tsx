@@ -7,8 +7,7 @@ export default function Footer() {
           <span className="ml-3 text-xl">SungJun's Portfolio</span>
         </a>
         <p className="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">
-          © 2023 SungJun's Portfolio — Email : umseongjun@naver.com | Phone :
-          010-2112-0275
+          © 2023 SungJun's Portfolio — Email : umseongjun@naver.com
         </p>
       </div>
     </footer>
