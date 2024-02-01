@@ -48,10 +48,6 @@ export default function Projects({
       <Head>
         <title>SungJun's portfolio-Projects</title>
         <meta
-          name='google-site-verification'
-          content='FkVxpqkKnBQlSm1tgTF-GyQP0GLfhX_z03E6h21lipo'
-        />
-        <meta
           name='description'
           content='엄성준의 NextJs를 활용한 포트폴리오 입니다.'
         />
