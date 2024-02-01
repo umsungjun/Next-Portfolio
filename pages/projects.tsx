@@ -48,14 +48,18 @@ export default function Projects({
       <Head>
         <title>SungJun's portfolio-Projects</title>
         <meta
-          name="description"
-          content="엄성준의 NextJs를 활용한 포트폴리오 입니다."
+          name='google-site-verification'
+          content='FkVxpqkKnBQlSm1tgTF-GyQP0GLfhX_z03E6h21lipo'
+        />
+        <meta
+          name='description'
+          content='엄성준의 NextJs를 활용한 포트폴리오 입니다.'
         />
       </Head>
       {/* <h1>총 프로젝트 : {projects.length}</h1> */}
-      <section className="flex min-h-screen flex-column items-center justify-center text-gray-600 body-font">
-        <div className="container flex-column mx-auto flex px-5 py-24 flex-col items-center">
-          <div className="flex md:flex-row sm:flex-row flex-wrap justify-around">
+      <section className='flex min-h-screen flex-column items-center justify-center text-gray-600 body-font'>
+        <div className='container flex-column mx-auto flex px-5 py-24 flex-col items-center'>
+          <div className='flex md:flex-row sm:flex-row flex-wrap justify-around'>
             {projects.map((project) => {
               return <ProjectItem key={project.id} project={project} />;
             })}
